@@ -34,27 +34,36 @@
 // console.log(`${colors[0]}, ${colors[1]}`);
 
 // 1. Reverse and Transform (20 pts)
-const fruits = ["apple", "orange", "grapes"];
+// let fruits = ["apple", "orange", "grapes"];
+// let reversedArray = [];
+// let upperCased = [];
 
-for (let i = 0; i < fruits.length; i++) {
-    console.log(fruits[i]);
+// for (let i = 0; i < fruits.length; i++) {
+//     let reversedWord = "";
+//     let uppercaseWord = fruits[i].toUpperCase();
+//     upperCased[i] = uppercaseWord;
 
-}
+//     for (let l = fruits[i].length - 1; l >= 0; l--) {
+//         reversedWord += fruits[i][l];
 
-//2. Filtering and Counting (20 pts)
-// let numbers = [12, 45, 67, 23, 90, 32, 11, 9, 28];
-// let newNum = [];
-// let n = 0;
-
-// for (let i = 0; i < numbers.length; i++) {
-//     if (numbers[i] % 2 === 0 && numbers[i] > 20) {
-//         newNum[n] = numbers[i];
-//         n++;
 //     }
+//     reversedArray[i] = reversedWord;
+//     console.log(`${fruits[i]} to: ${reversedArray[i]} and ${upperCased[i]}`)
 // }
-// console.log(`Found ${newNum.length} numbers: `);
 
-// for (let num = 0; num < newNum.length; num++) {
-    
-//     console.log(newNum[num]);
-// }
+// 2. Filtering and Counting (20 pts)
+let numbers = [12, 45, 67, 23, 90, 32, 11, 9, 28];
+let newNum = [];
+let n = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0 && numbers[i] > 20) {
+        newNum[n] = numbers[i];
+        n++;
+    }
+}
+console.log(`Found ${newNum.length} numbers: `);
+
+for (num of newNum) {
+    console.log(num);
+}
