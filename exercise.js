@@ -63,7 +63,6 @@ for (let i = 0; i < numbers.length; i++) {
     }
 }
 console.log(`Found ${newNum.length} numbers: `);
-
 for (num of newNum) {
     console.log(num);
 }
