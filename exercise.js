@@ -1,5 +1,5 @@
 // 1. Create a variable to store your name. (10 pts)
-var name = "Symonn Jaemur B. Ang"
+var name = "Symonn Ang"
 console.log(`My name is ${name}`);
 
 // 2. Create a variable using let to store your age, but store it as a string, not a number. (10 pts)
