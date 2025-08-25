@@ -26,7 +26,7 @@ async function runGame () {
                     return console.log(`Game over! The word was: ${word.word}`);
 
                 }
-                // break;
+                
             }
             
             } else {
