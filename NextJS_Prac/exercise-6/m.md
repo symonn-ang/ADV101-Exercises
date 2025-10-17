@@ -1,0 +1,1 @@
+# notes from prev lesson placed here
